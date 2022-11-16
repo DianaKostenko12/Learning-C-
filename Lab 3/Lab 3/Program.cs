@@ -47,11 +47,11 @@ namespace Lab_3
                         Console.WriteLine("Не можна вводити нуль!!!");
                     }
 
-                    Console.WriteLine("Ви бажаєте вийти з програми? Так/Нi");
+                    Console.WriteLine("Ви бажаєте вийти з програми? Yes/No");
                     answer = Console.ReadLine();
                     Console.Clear();
             }
-            while (answer == "Нi");
+            while (answer == "No");
             
         }
     }
